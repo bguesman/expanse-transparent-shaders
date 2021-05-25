@@ -2,8 +2,8 @@
 #error SHADERPASS_is_not_correctly_define
 #endif
 
-// [BRAD/EXPANSE]: Include sampling helper for fog textures.
-#include "../transparency.hlsl"
+// [EXPANSE]: Include sampling helper for fog and cloud textures.
+#include "Assets/Expanse/transparency/shaders/transparency.hlsl"
 
 #ifdef _WRITE_TRANSPARENT_MOTION_VECTOR
 #include "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/MotionVectorVertexShaderCommon.hlsl"
